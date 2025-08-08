@@ -1,0 +1,281 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Personal PortFolio Website</title>
+    <link rel="stylesheet" href="style.css" />
+    <script
+      src="https://kit.fontawesome.com/bb95d5d212.js"
+      crossorigin="anonymous"
+      scr="main.js"
+    ></script>
+  </head>
+  <body>
+    <div id="header">
+      <div class="container">
+        <nav>
+          <div class="logo">Portfo<span>lio</span></div>
+          <ul id="sidemenu">
+            <li><a href="#">Home</a></li>
+            <li><a href="#about">About</a></li>
+            <li><a href="#services">Services</a></li>
+            <li><a href="#portfolio">Portfolio</a></li>
+            <li><a href="#contact">Contact</a></li>
+            <i class="fas fa-times" onclick="closemenu()"></i>
+          </ul>
+          <i class="fas fa-bars" onclick="openmenu()"></i>
+        </nav>
+         <div class="image">
+            <img
+              src="images/download.png"
+              alt=""
+              width="500px" height="300px"
+              style="float:right; margin-top: 50px; mix-blend-mode: multiply;"
+            />
+          </div>
+        
+        <div class="header-text">
+          <h1>
+            Hello, I am<span><br />Chandrakesh</span>
+          </h1>
+          <ul>
+            <p style="color: #334155">Web Developer</p>
+          </ul>
+        </div>
+      </div>
+    </div>
+
+    <!-- About -->
+    <div id="about">
+      <div class="container">
+        <div class="row">
+          <div class="about-col-1">
+            <img src="images/about.jpg" />
+          </div>
+          <div class="about-col-2">
+            <h1 class="sub-title">About Me</h1>
+            <br />
+            <p class="justify">
+              Hello!Thanks for scrolling this far!! My name is Chandrakesh and I
+              am a student of computer science.In this portfolio,you will find a
+              collection of my work and projects that showcase my
+              projects,experiences, and passion for web development.I am
+              constantly striving to improve and expand my knowledge in the web
+              development Thank you for taking the time to view my portfolio,
+              and I look forward to connecting with you." <br /><br />
+            </p>
+            <div class="tab-titles">
+              <p class="tab-links active-link" onclick="opentab('skills')">
+                Skills
+              </p>
+              <p class="tab-links" onclick="opentab('experience')">
+                Experience
+              </p>
+              <p class="tab-links" onclick="opentab('education')">Education</p>
+            </div>
+            <div class="tab-contents active-tab" id="skills">
+              <ul>
+                <br /><br />
+                <li><span>UI/UX</span><br />Designing Web Interfaces</li>
+                <li><span>Web Development</span><br />Websites Development</li>
+                <li><span>App Development</span><br />Web app Development</li>
+              </ul>
+            </div>
+            <div class="tab-contents" id="experience">
+              <ul>
+                <br /><br />
+                <li>
+                  <span>Nov 2024 - Feb 2025</span>
+                  <br />Full Stack Web Developer Internship at LearnNex.
+                </li>
+                <li>
+                  <span>Oct 2023 - Nov 2023</span>
+                  <br />
+                  Web Development Internship at TechnoHacks EduTech.
+                </li>
+              </ul>
+            </div>
+            <div class="tab-contents" id="education">
+              <ul>
+                <br /><br />
+                <li>
+                  <span>2025</span>
+                  <br />B.tech from Rama University Kanpur
+                </li>
+                <li>
+                  <span>2022</span>
+                  <br />Diploma from Invertis University Bareilly
+                </li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!--services-->
+    <div id="services">
+      <div class="container">
+        <h1 class="sub-title" style="color: #334155">My Services</h1>
+        <div class="services-list">
+          <div>
+            <i class="fas fa-crop-alt"></i>
+            <h2>UI/UX Design</h2>
+            <p>
+              UX design focuses on the interaction<br />
+              that a human user has with everyday<br />
+              products and services.<br />
+            </p>
+            <br />
+            <a
+              href="https://flatironschool.com/blog/what-is-ux-ui-design/"
+              target="_blank"
+              title="Go to FlatironSchool"
+              >learn more</a
+            >
+          </div>
+
+          <div>
+            <i class="fa-solid fa-code"></i>
+            <h2>Web Development</h2>
+            <p>
+              Every website should be built with two<br />
+              primary goals:Firstly, it needs to work <br />across all
+              devices.Secondly, it needs <br />to be fast as possible.
+            </p>
+            <br />
+            <a
+              href="https://www.geeksforgeeks.org/web-development/"
+              target="_blank"
+              title="Go to GeeksForGeeks "
+              >learn more</a
+            >
+          </div>
+          <div>
+            <i class="fa-brands fa-app-store"></i>
+            <h2>Web App Development</h2>
+            <p>
+              App development is a combination of UI<br />
+              and UX design to build out a usable<br />
+              piece of software.Ideal mobile app <br />design is good-looking,
+              functional,<br />
+              and straightforward all at the same time.
+            </p>
+            <br />
+            <a
+              href="https://www.google.com/search?sca_esv=557337435&q=app+development&tbm=isch&source=lnms&sa=X&ved=2ahUKEwiGo9WcrOCAAxUEb94KHVSEBz8Q0pQJegQICxAB&biw=1366&bih=619&dpr=1"
+              target="_blank"
+              title="Go to google"
+              >learn more</a
+            >
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!---portfolio--->
+
+    <div id="portfolio">
+      <div class="container">
+        <h1 class="sub-title">My Work</h1>
+        <div class="work-list">
+          <div class="work">
+            <img src="images/work-1.jpeg" />
+            <div class="layer">
+              <h3>Social Media App</h3>
+              <p>
+                The app connects you the talented people around the world.
+                Download it from play store.
+              </p>
+              <a href="#"><i class="fa-solid fa-up-right-from-square"></i></a>
+            </div>
+          </div>
+          <div class="work">
+            <img src="images/work-4.jpeg" />
+            <div class="layer">
+              <h3>Online Shopping App</h3>
+              <p>
+                The app connects you the talented people around the world.
+                Download it from play store.
+              </p>
+              <a href="#"><i class="fa-solid fa-up-right-from-square"></i></a>
+            </div>
+          </div>
+          <div class="work">
+            <img src="images/work-3.jpeg" />
+            <div class="layer">
+              <h3>Music App</h3>
+              <p>
+                The app connects you the talented people around the world.
+                Download it from play store.
+              </p>
+              <a href="#"><i class="fa-solid fa-up-right-from-square"></i></a>
+            </div>
+          </div>
+        </div>
+        <a
+          href="https://www.google.com/search?sca_esv=557329753&q=software+engineer&tbm=isch&source=lnms&sa=X&ved=2ahUKEwiEu-iGquCAAxXNUGwGHQLiBRIQ0pQJegQIDBAB&biw=1366&bih=619&dpr=1"
+          class="btn"
+          target="_blank"
+          title="Go to google"
+          >See more</a
+        >
+      </div>
+    </div>
+
+    <!--Contact-->
+    <div id="contact">
+      <div class="container">
+        <div class="row">
+          <div class="contact-left">
+            <h1 class="sub-title">Contact Me</h1>
+            <p><i class="fa-solid fa-paper-plane"></i>dhawal.dkd@gmail.com</p>
+            <p><i class="fa-solid fa-square-phone"></i>8604518825</p>
+            <div class="socila-icons">
+              <a href=""><i class="fa-brands fa-facebook"></i></a>
+              <a href=""><i class="fa-brands fa-square-twitter"></i></a>
+              <a href="https://www.instagram.com/_chandu369" target="_blank"
+                ><i class="fa-brands fa-square-instagram"></i
+              ></a>
+              <a
+                href="https://www.linkedin.com/in/chandrakesh-dhawal"
+                target="_blank"
+                ><i class="fa-brands fa-linkedin"></i
+              ></a>
+              <a href="https://github.com/codetech321" target="_blank"
+                ><i class="fa-brands fa-github"></i
+              ></a>
+            </div>
+            <a href="images/chandrakesh.pdf" download class="btn btn2"
+              >Download Resume</a
+            >
+          </div>
+          <div class="contact-right">
+            <form name="submit-to-google-sheet">
+              <input type="text" name="Name" placeholder="Your Name" required />
+              <input
+                type="email"
+                name="Email"
+                placeholder="Your Email"
+                required
+              />
+              <textarea
+                name="Message"
+                rows="6"
+                placeholder="Your Message"
+              ></textarea>
+              <button type="submit" class="btn btn2">Submit</button>
+            </form>
+            <span id="msg"></span>
+          </div>
+        </div>
+        <div class="copyright">
+          <p>Copyright © 2023 by Chandrakesh Dhawal</p>
+        </div>
+      </div>
+    </div>
+    <script src="main.js"></script>
+  </body>
+</html>
