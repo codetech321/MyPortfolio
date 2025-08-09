@@ -20,11 +20,10 @@ A simple and elegant **personal portfolio** built with **HTML**, **CSS**, and **
 ---
 
 ## 📂 Structure
-/portfolio
+portfolio
 ├── index.html
 ├── style.css
 ├── script.js
-└── assets/
 
 
 ---
@@ -34,18 +33,3 @@ A simple and elegant **personal portfolio** built with **HTML**, **CSS**, and **
    ```bash
    git clone https://github.com/yourusername/portfolio.git
 Open index.html in your browser.
-
- 
-
-
-
-
-
-
-
-
-Ask ChatGPT
-
-
-
-
