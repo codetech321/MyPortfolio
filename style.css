@@ -386,6 +386,11 @@ nav.fas {
       align-items: center;
       width: 90%;
     }
+  .about-col-1 img {
+  width: 100%;
+  height: 600px;
+  border-radius: 15px;
+}
 
   nav ul {
     background: white;
