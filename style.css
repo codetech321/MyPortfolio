@@ -370,7 +370,7 @@ nav.fas {
 
 /*--------------------------css for small screens-----------------------*/
 
-@media only screen and (max-width: 600px) {
+@media only screen and (max-width: 576px) {
 
   .header-text {
     margin-top: 10vh;
