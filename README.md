@@ -20,10 +20,12 @@ A simple and elegant **personal portfolio** built with **HTML**, **CSS**, and **
 ---
 
 ## 📂 Structure
-MyPortfolio
+/MyPortfolio
+├── Images/
 ├── index.html
 ├── style.css
-├── script.js
+├── main.js
+
 
 
 ---
