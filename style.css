@@ -1,4 +1,4 @@
-* {
+ *{
   margin: 0;
   padding: 0;
   box-sizing: border-box;
@@ -32,7 +32,9 @@ nav ul li {
   list-style: none;
   margin: 10px 20px;
 }
-
+nav ul .fa-times {
+  display: none;
+}
 nav ul li a {
   color: #334155;
   text-decoration: none;
@@ -376,7 +378,7 @@ nav.fas {
     margin-top: 10vh;
     font-size:16px;
   }
-  nav.fas {
+  nav ul.fas {
     display: block;
     font-size: 25px;
   }
@@ -408,12 +410,16 @@ nav.fas {
     display: block;
     margin: 25px;
   }
+  nav ul .fa-times {
+    display: block;
+  }
   nav ul .fas {
     position: absolute;
     top: 25px;
     left: 25px;
     cursor: pointer;
   }
+
 
   .row {
     display: grid;
